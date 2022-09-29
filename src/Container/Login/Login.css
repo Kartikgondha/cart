@@ -1,0 +1,32 @@
+.kartik_main{
+   
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+.kartik_main::before{
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 103px;
+    background-color: brown;
+    top: 78%;
+    left: 47%
+}
+.kartik_h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+}
+.kartik_link .forggot_kartik{
+    margin-left: 50px;
+}
+.kartik_link{
+    cursor: pointer;
+    color: black;
+    margin-bottom: 15px;
+}
+.kartik_btn{
+    margin-bottom: 15px;
+}
