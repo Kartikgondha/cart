@@ -339,7 +339,7 @@ function Home(props) {
           <div className="col-sm-6 d-flex col-md-4 col-lg-3 p-b-35 isotope-item women">
             {/* Block2 */}
             <div className="block2 d-flex">
-              <div className="block2-pic hov-img0">
+              <div className="block2-pic hov-img0 ">
                 {productData.map((p) => {
                   return (
                     <>
